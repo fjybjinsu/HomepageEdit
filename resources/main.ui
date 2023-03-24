@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1016</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>맑은 고딕</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>홈페이지 변조 탐지 프로그램(제작자: 김동언)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title_label">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>10</y>
+      <width>1411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+      <pointsize>35</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>홈페이지 변조 탐지 프로그램</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>621</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>도메인2</string>
+    </property>
+    <widget class="QTableWidget" name="_12div_change_detected_tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>601</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>강한육군 Medium</family>
+      </font>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <column>
+      <property name="text">
+       <string>상위 페이지</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 사항</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 URL</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>70</y>
+      <width>621</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>도메인3</string>
+    </property>
+    <widget class="QTableWidget" name="_1cmd_change_detected_tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>601</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>강한육군 Medium</family>
+      </font>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <column>
+      <property name="text">
+       <string>상위 페이지</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 사항</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 URL</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>70</y>
+      <width>621</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>도메인4</string>
+    </property>
+    <widget class="QTableWidget" name="_102armbde_change_detected_tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>601</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>강한육군 Medium</family>
+      </font>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <column>
+      <property name="text">
+       <string>상위 페이지</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 사항</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 URL</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>621</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>도메인5</string>
+    </property>
+    <widget class="QTableWidget" name="_21div_change_detected_tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>601</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>강한육군 Medium</family>
+      </font>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <column>
+      <property name="text">
+       <string>상위 페이지</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 사항</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 URL</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>300</y>
+      <width>621</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>도메인7</string>
+    </property>
+    <widget class="QTableWidget" name="_23brig_change_detected_tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>601</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>강한육군 Medium</family>
+      </font>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <column>
+      <property name="text">
+       <string>상위 페이지</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 사항</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 URL</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>300</y>
+      <width>621</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>도메인6</string>
+    </property>
+    <widget class="QTableWidget" name="_3lsbde_change_detected_tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>601</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>강한육군 Medium</family>
+      </font>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <column>
+      <property name="text">
+       <string>상위 페이지</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 사항</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 URL</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>530</y>
+      <width>621</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>도메인8</string>
+    </property>
+    <widget class="QTableWidget" name="_22div_change_detected_tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>601</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>강한육군 Medium</family>
+      </font>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <column>
+      <property name="text">
+       <string>상위 페이지</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 사항</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 URL</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_8">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>530</y>
+      <width>621</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>도메인10</string>
+    </property>
+    <widget class="QTableWidget" name="_20ab_change_detected_tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>601</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>강한육군 Medium</family>
+      </font>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <column>
+      <property name="text">
+       <string>상위 페이지</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 사항</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 URL</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_9">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>530</y>
+      <width>621</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>도메인9</string>
+    </property>
+    <widget class="QTableWidget" name="_3artbde_change_detected_tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>601</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>강한육군 Medium</family>
+      </font>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <column>
+      <property name="text">
+       <string>상위 페이지</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 사항</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 URL</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_10">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>760</y>
+      <width>1251</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>도메인1</string>
+    </property>
+    <widget class="QTableWidget" name="_3corps_change_detected_tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>1231</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>강한육군 Medium</family>
+      </font>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <column>
+      <property name="text">
+       <string>상위 페이지</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 사항</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 URL</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_12">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>760</y>
+      <width>621</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>도메인11</string>
+    </property>
+    <widget class="QTableWidget" name="_1mountainbde_change_detected_tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>601</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>강한육군 Medium</family>
+      </font>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <column>
+      <property name="text">
+       <string>상위 페이지</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 사항</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>변경 URL</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1810</x>
+      <y>40</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>강한육군 Medium</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
