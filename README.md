@@ -29,6 +29,6 @@
 ## 7. 실행 방법
 - 압축 해제 후, main.pyw 실행
 
-##8. 프로그램 화면
+## 8. 프로그램 화면
 - 민감 정보는 전부 검은색으로 마스킹처리했습니다.
 - ![image](https://github.com/fjybjinsu/HomepageEdit/assets/85774577/5b9839a5-65cb-4ac6-bf2c-a8f2a59b3317)
